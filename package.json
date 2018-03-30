@@ -1,16 +1,14 @@
 {
-  "name": "twitterapp",
-  "version": "1.0.0",
-  "description": "twitter bot app",
+  "name": "newsbot",
+  "version": "0.0.0",
+  "description": "This is an app",
   "main": "index.js",
-  "scripts":
-  {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "twit": "^1.0.0",
+
   },
-  "author": "Patrick Halpin",
-  "license": "ISC",
-  "dependencies":
-  {
-    "twit": "^1.0.0"
-  },
+  "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node newsbot.js"
+  }
 }
