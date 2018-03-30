@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "twitter bot app",
   "main": "index.js",
-  "scripts": {
+  "scripts":
+  {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Patrick Halpin",
-  "license": "ISC"
-  { "dependencies" :
+  "license": "ISC",
+  "dependencies":
   {
-    "twit"
-  }
-}
+    "twit": "^1.0.0"
+  },
 }
