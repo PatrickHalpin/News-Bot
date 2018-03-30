@@ -8,4 +8,9 @@
   },
   "author": "Patrick Halpin",
   "license": "ISC"
+  { "dependencies" :
+  {
+    "twit"
+  }
+}
 }
